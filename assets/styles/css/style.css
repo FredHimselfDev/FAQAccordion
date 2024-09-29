@@ -43,7 +43,7 @@ main .container {
   border-radius: 18px;
   margin: 24px;
   padding: 40px;
-  padding-bottom: 17px;
+  padding-bottom: 18px;
   box-shadow: hsla(292, 16%, 49%, 0.2) 0px 10px 46px 0px;
 }
 @media (max-width: 400px) {
@@ -113,9 +113,6 @@ main .accordionItem .question:hover h2 {
 }
 main .accordionItem:last-child .question {
   padding-bottom: 0;
-}
-main .accordionItem:last-child .answer {
-  padding-top: 22px;
 }
 main .accordionItem .answer {
   max-height: 0;
